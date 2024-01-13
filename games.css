@@ -8,6 +8,7 @@ body{
     text-align: center;
     font-family: sans-serif;
     background-color: #101010;}
+
 .home {
     display: flex;
     align-items: center;
@@ -17,37 +18,37 @@ body{
     position:  fixed;
     width: 100%;
     z-index: 100;}
-.navbar{
-    display: flex;
-    margin-right: 10px;}
 .logo{
-    margin-left: 30px;
-    transition: 0.3s;}
-
+     margin-left: 30px;
+      transition: 0.3s;}
 .logo a{
     text-decoration: none;
-    color: rgb(255, 255, 255);
-    text-transform: uppercase;
-    font-size: 20px;}
+      color: rgb(255, 255, 255);
+      text-transform: uppercase;
+      font-size: 20px;}
+.navbar{display: flex;}
 .navbar a {
     display: block;
-    padding: 23px 20px;
+    padding: 23px 10px;
     color: #ffffff;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 20px;
-    transition: 0.3s;}
-.navbar a:hover {
-    background: #0e88c0; }
+    font-size: 15px;
+    transition: all 0.3s ease;
+    }
+    .v2{background-color:rgba(156, 8, 201, 0.5);}
+    .v1:hover {background-color:rgba(156, 8, 201, 0.5)}
+
+
 .header{
      display: flex;
       justify-content: center;
      align-items: center; }
- .header{
+.header{
      display: flex;
       justify-content: center;
      align-items: center; }
- .header {
+.header {
    height: 60vh !important;
     background:url(img/descarga.jpg) no-repeat center;
     background-size: cover; }
@@ -57,13 +58,36 @@ body{
     font-weight: 600;
     text-transform: uppercase;
    color: #fff; }
- p {
+.p1 {
     margin-bottom: 40px;
     font-size: 18px;
-    color: #fff;
-   padding: 0 100px; }
+   color: #fff;
+   padding: 0 100px;
+}
 
-   .content {
+.p2{
+    margin-bottom: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 0 100px;
+ }
+ 
+
+ .p3{
+    margin-top: 20px;
+    font-size: 16px;
+    color: #fff;
+    padding: 0 100px;
+ }
+
+ .title2 {
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+ }
+.content {
     height: 50vh;
     display: flex;
     flex-direction: column;
@@ -132,21 +156,55 @@ body{
 .btn-home a{
     margin: 0 10px;
 }
-@media(max-width: 768px) {
-    .title{
+@media(max-width:1500px) {
+    p{
+        text-align: center;
+    }
+    .p1{
+        padding: 20px;
+    
+    }
+    .p2{
+        width: 400px;
+     }
+     .p3{
+        width: 400px;
+     }
+
+.sau {
+        height: 40rem;
+        display: flex;
+    }
+.title{
         margin-bottom: 0;
         font-size: 40px;
+    }
+   
+}
+@media(max-width:920px) {
+    p{
+        text-align: center;
+    }
+    .p1{
+        padding: 20px;
+    
+    }
+    .p2{
+        width: 400px;
+     }
+     .p3{
+        width: 400px;
+     }
 
+.sau {
+        height: 110rem;
+        display: flex;
     }
-    .sau{
-        height: 120vh;
+.title{
+        margin-bottom: 0;
+        font-size: 40px;
     }
-    .navbar {
-        display: none;
-    }
+   
 }
 
-.foto {
-   width: 15rem;
-  margin: -4rem;
-}
+
