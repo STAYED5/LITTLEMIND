@@ -109,62 +109,6 @@ body{
     
      }
 
-     .box-container {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        text-align: center;
-     }
-
-     .box-container .box{
-        height: 11rem;
-        width: 17rem;
-        background: #101010;
-        text-align: center;
-        border-radius: 1rem;
-        box-shadow: 0 .3 5rem rgb(0,0,0, .5);
-        margin: 2rem;
-    
-     }
-
-     .box-container .box i {
-        height: 3rem;
-        width: 3rem;
-        line-height: 3rem;
-        text-align: center;
-        border-radius: 50%;
-        color: #fff;
-        background: #404244;
-        font-size: 2rem;
-        margin: 1rem;
-        transition: 0.3s;
-    }
-
-    .box-container .box .linux{
-        height: 3rem;
-        width: 3rem;
-        line-height: 3rem;
-        text-align: center;
-        border-radius: 50%;
-        color: #fff;
-        background: #404244;
-        font-size: 2rem;
-        margin: 1rem;
-        transition: 0.5s;
-    }
-.box-container .box i:hover {background-color: #1b64a0;}
-
-.box-container .box h3, a {
-    font-size: 20px;
-    color: #1573c0;
-}
-
-.box-container .box p {
-    padding: 0px;
-    font-size: 16px;
-
-}
-
 .btn{
     display: inline-block;
     margin-top: 15px;
@@ -188,24 +132,6 @@ body{
 .btn-home a{
     margin: 0 10px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media(max-width: 768px) {
     .title{
         margin-bottom: 0;
